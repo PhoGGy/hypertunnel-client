@@ -1,0 +1,46 @@
+{
+  "name": "hypertunnel",
+  "version": "1.2.8b",
+  "description": "Expose any local TCP/IP service on the internet.",
+  "main": "index.js",
+  "repository": "berstend/hypertunnel",
+  "author": "berstend & tewarid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berstend/hypertunnel/issues"
+  },
+  "scripts": {
+    "docs": "exit 0",
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "bin": {
+    "hypertunnel": "./cli.js"
+  },
+  "keywords": [
+    "hypertunnel",
+    "localtunnel",
+    "ngrok",
+    "tcp/ip",
+    "proxy",
+    "nat",
+    "relay",
+    "hole punching",
+    "hyper",
+    "node-tcp-relay"
+  ],
+  "dependencies": {
+    "commander": "^2.15.1",
+    "debug": "^3.1.0",
+    "got": "^8.3.1",
+    "hypertunnel-tcp-relay": "^1.2.7",
+    "url-parse": "^1.4.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "execa": "^0.10.0",
+    "standard": "^11.0.1"
+  }
+}
