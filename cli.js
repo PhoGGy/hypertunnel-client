@@ -59,13 +59,6 @@ module.exports = async (argv) => {
     console.log('  Tunnel closed.')
     process.exit(0)
   }))
-
-  if (client.expiresIn) {
-    setTimeout(async () => {
-      await deleteTunnel(client)
-      console.log('  Tunnel expired.')
-    }, client.expiresIn * 1000) // Convert s to ms
-  }
 }
 
 module.exports(process.argv)
