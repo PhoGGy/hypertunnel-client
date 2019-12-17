@@ -1,13 +1,13 @@
 {
-  "name": "hypertunnel",
-  "version": "1.2.8b1",
+  "name": "hypertunnel-client",
+  "version": "1.2.8b2",
   "description": "Expose any local TCP/IP service on the internet.",
   "main": "index.js",
-  "repository": "berstend/hypertunnel",
-  "author": "berstend & tewarid",
+  "repository": "PhoGGy/hypertunnel-client",
+  "author": "PhoGGy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/berstend/hypertunnel/issues"
+    "url": "https://github.com/PhoGGy/hypertunnel-client/issues"
   },
   "scripts": {
     "docs": "exit 0",
