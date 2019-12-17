@@ -1,6 +1,6 @@
 {
   "name": "hypertunnel-client",
-  "version": "1.2.8b3",
+  "version": "1.2.8b4",
   "description": "Expose any local TCP/IP service on the internet.",
   "main": "index.js",
   "repository": "PhoGGy/hypertunnel-client",
