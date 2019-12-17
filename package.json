@@ -1,6 +1,6 @@
 {
   "name": "hypertunnel",
-  "version": "1.2.8b",
+  "version": "1.2.8b1",
   "description": "Expose any local TCP/IP service on the internet.",
   "main": "index.js",
   "repository": "berstend/hypertunnel",
